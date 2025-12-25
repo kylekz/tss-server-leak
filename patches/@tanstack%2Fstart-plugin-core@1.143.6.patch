@@ -1,0 +1,13 @@
+diff --git a/dist/esm/start-compiler-plugin/compiler.js b/dist/esm/start-compiler-plugin/compiler.js
+index 75552dbbcf42bf99de71d59eb917215fd41dc848..07bc545d8e9db9ed2aaac069e3748d4a7bd136e6 100644
+--- a/dist/esm/start-compiler-plugin/compiler.js
++++ b/dist/esm/start-compiler-plugin/compiler.js
+@@ -28,7 +28,7 @@ const LookupSetup = {
+   ClientOnlyJSX: { type: "jsx", componentName: "ClientOnly" }
+ };
+ const KindDetectionPatterns = {
+-  ServerFn: /\.handler\s*\(/,
++  ServerFn: /\.\s*handler\s*\(/,
+   Middleware: /createMiddleware/,
+   IsomorphicFn: /createIsomorphicFn/,
+   ServerOnlyFn: /createServerOnlyFn/,

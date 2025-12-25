@@ -42,6 +42,9 @@
       },
     },
   },
+  "patchedDependencies": {
+    "@tanstack/start-plugin-core@1.143.6": "patches/@tanstack%2Fstart-plugin-core@1.143.6.patch",
+  },
   "packages": {
     "@acemir/cssom": ["@acemir/cssom@0.9.30", "", {}, "sha512-9CnlMCI0LmCIq0olalQqdWrJHPzm0/tw3gzOA9zJSgvFX7Xau3D24mAGa4BtwxwY69nsuJW6kQqqCzf/mEcQgg=="],
 

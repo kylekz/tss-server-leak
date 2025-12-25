@@ -51,5 +51,8 @@
     "vite": "^7.3.0",
     "vitest": "^4.0.16",
     "web-vitals": "^5.1.0"
+  },
+  "patchedDependencies": {
+    "@tanstack/start-plugin-core@1.143.6": "patches/@tanstack%2Fstart-plugin-core@1.143.6.patch"
   }
 }
