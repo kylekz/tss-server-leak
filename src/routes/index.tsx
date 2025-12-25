@@ -41,7 +41,7 @@ function SongsButton() {
   )
 }
 
-export const authMiddleware = createMiddleware({ type: 'function' }).server(
+const authMiddleware = createMiddleware({ type: 'function' }).server(
   async ({ next }) => {
     return next({
       context: {
@@ -61,7 +61,7 @@ const songs = [
   { id: 7, name: 'Beverly Hills', artist: 'Weezer' },
 ]
 
-export const $getRandomSong = createServerFn({
+const $getRandomSong = createServerFn({
   method: 'POST',
 })
   .middleware([authMiddleware])
